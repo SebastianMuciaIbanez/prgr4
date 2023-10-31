@@ -3,8 +3,9 @@
 //import viteLogo from '/vite.svg'
 import leon from "../leon.jpg"
 import './App.css'
+import {ElementOne} from "./components/componente-uno/ElementOne"
 
-const elementOne = <h1>Hello, world! one</h1>;
+//const elementOne = <h1>Hello, world! one</h1>;
 const name = 'Josh Perez';
 const element = <h1>Hello, {`2+2= ${2 + 2} ${name}`}</h1>;
 const objExample = {
@@ -45,7 +46,7 @@ function App() {
   );
   return (
     <div>
-      {elementOne}
+      <ElementOne/>
       {elementTwo}
       {element}
       <p style={{
